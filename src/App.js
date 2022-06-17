@@ -1,12 +1,14 @@
 import "./App.css";
-import containerJsx from "./jsx";
-import { container } from "./reactElement";
+import FilterableProductTable from "./list";
+// import containerJsx from "./jsx";
+// import { container } from "./reactElement";
 
 function App() {
   return (
     <div className="App">
-      {container}
-      {containerJsx}
+      {/* {container}
+      {containerJsx} */}
+      <FilterableProductTable />
     </div>
   );
 }
