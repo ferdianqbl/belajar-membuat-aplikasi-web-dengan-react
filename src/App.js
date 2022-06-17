@@ -1,5 +1,5 @@
-import "./App.css";
-import News from "./newsUI";
+import ContactApp from "./contactApp";
+// import News from "./newsUI";
 // import FilterableProductTable from "./list";
 // import containerJsx from "./jsx";
 // import { container } from "./reactElement";
@@ -10,7 +10,8 @@ function App() {
       {/* {container}
       {containerJsx} */}
       {/* <FilterableProductTable /> */}
-      <News />
+      {/* <News /> */}
+      <ContactApp />
     </div>
   );
 }
