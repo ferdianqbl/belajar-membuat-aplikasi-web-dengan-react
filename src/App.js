@@ -1,5 +1,6 @@
 import "./App.css";
-import FilterableProductTable from "./list";
+import News from "./newsUI";
+// import FilterableProductTable from "./list";
 // import containerJsx from "./jsx";
 // import { container } from "./reactElement";
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* {container}
       {containerJsx} */}
-      <FilterableProductTable />
+      {/* <FilterableProductTable /> */}
+      <News />
     </div>
   );
 }
