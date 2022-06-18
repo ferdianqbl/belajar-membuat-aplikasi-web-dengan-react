@@ -1,10 +1,9 @@
-// import ContactApp from "./contactApp";
+import ContactApp from "./contactApp";
 // import News from "./newsUI";
 // import FilterableProductTable from "./list";
 // import containerJsx from "./jsx";
 // import { container } from "./reactElement";
-
-import CounterApp from "./counterApp";
+// import CounterApp from "./counterApp";
 
 function App() {
   document.title = "Dicoding-react";
@@ -14,8 +13,8 @@ function App() {
       {containerJsx} */}
       {/* <FilterableProductTable /> */}
       {/* <News /> */}
-      {/* <ContactApp /> */}
-      <CounterApp />
+      <ContactApp />
+      {/* <CounterApp /> */}
     </div>
   );
 }
