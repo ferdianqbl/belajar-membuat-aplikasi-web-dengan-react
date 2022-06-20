@@ -86,3 +86,9 @@ img {
   padding: 8px;
   font-family: 'Inter', sans-serif;
 }
+
+.alert-danger {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
